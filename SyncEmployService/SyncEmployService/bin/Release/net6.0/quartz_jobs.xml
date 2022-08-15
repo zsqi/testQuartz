@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file contains job definitions in schema version 2.0 format -->
+<job-scheduling-data xmlns="http://quartznet.sourceforge.net/JobSchedulingData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+  <processing-directives>
+    <overwrite-existing-data>true</overwrite-existing-data>
+  </processing-directives>
+  <schedule>
+    <!--定义示例任务1 Job-->
+    <job>
+      <name>ItemJob</name>
+      <group>ItemJobGroup</group>
+      <description>任务</description>
+      <!--job-type,完整类名，命名空间，用逗号隔开-->
+      <job-type>SyncEmployService.Job.HelloQuartzJob,SyncEmployService</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <!--定义示例任务1 触发器 每3秒执行一次 ItemJob 任务-->
+    <trigger>
+      <cron>
+        <name>ItemJobTrigger</name>
+        <group>DItemJobTriggerGroup</group>
+        <!--指定JOB名-->
+        <job-name>ItemJob</job-name>
+        <!--指定JOB组-->
+        <job-group>ItemJobGroup</job-group>
+        <cron-expression>0/3 * * * * ?</cron-expression>
+      </cron>
+    </trigger>
+    
+    <!--定义示例任务2 Job-->
+    <job>
+      <name>ItemJob2</name>
+      <group>ItemJobGroup2</group>
+      <description>任务2</description>
+      <!--job-type,完整类名，命名空间，用逗号隔开-->
+      <job-type>SyncEmployService.Job.HelloQuartzJob2,SyncEmployService</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <!--定义示例任务2 触发器 每4秒执行一次 ItemJob2 任务-->
+    <trigger>
+      <cron>
+        <name>ItemJobTrigger2</name>
+        <group>DItemJobTriggerGroup2</group>
+        <job-name>ItemJob2</job-name>
+        <job-group>ItemJobGroup2</job-group>
+        <cron-expression>0/4 * * * * ?</cron-expression>
+      </cron>
+    </trigger>
+    
+  </schedule>
+</job-scheduling-data>
