@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\15622\\source\\repos\\SyncEmployService\\SyncEmployService\\SyncEmployService.csproj": {}
+    "E:\\test\\testQuartz\\SyncEmployService\\SyncEmployService\\SyncEmployService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\15622\\source\\repos\\SyncEmployService\\SyncEmployService\\SyncEmployService.csproj": {
+    "E:\\test\\testQuartz\\SyncEmployService\\SyncEmployService\\SyncEmployService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\15622\\source\\repos\\SyncEmployService\\SyncEmployService\\SyncEmployService.csproj",
+        "projectUniqueName": "E:\\test\\testQuartz\\SyncEmployService\\SyncEmployService\\SyncEmployService.csproj",
         "projectName": "SyncEmployService",
-        "projectPath": "C:\\Users\\15622\\source\\repos\\SyncEmployService\\SyncEmployService\\SyncEmployService.csproj",
+        "projectPath": "E:\\test\\testQuartz\\SyncEmployService\\SyncEmployService\\SyncEmployService.csproj",
         "packagesPath": "C:\\Users\\15622\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\15622\\source\\repos\\SyncEmployService\\SyncEmployService\\obj\\",
+        "outputPath": "E:\\test\\testQuartz\\SyncEmployService\\SyncEmployService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
