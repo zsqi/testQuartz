@@ -16,8 +16,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Service\" />
-    <Folder Include="Repository\" />
+    <None Update="quartz.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="quartz_jobs.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

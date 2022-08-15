@@ -1,10 +1,16 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using Autofac;
 using Quartz;
 using Quartz.Impl;
+using SyncEmployService;
 using SyncEmployService.Job;
 using Topshelf;
 
 Console.WriteLine("Hello, World!");
+
+ContainerBuilder builder=new ContainerBuilder();
+builder.RegisterModule(new AutofacModuleRegister());
+builder.Build();
 
 HostFactory.Run(x =>
 {

@@ -48,6 +48,27 @@
         <cron-expression>0/4 * * * * ?</cron-expression>
       </cron>
     </trigger>
+	
+	 <!--定义示例任务3 Job-->
+    <job>
+      <name>ItemJob3</name>
+      <group>ItemJobGroup3</group>
+      <description>任务3</description>
+      <!--job-type,完整类名，命名空间，用逗号隔开-->
+      <job-type>SyncEmployService.Job.SyncEmployJob,SyncEmployService</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <!--定义示例任务3 触发器 每5秒执行一次 ItemJob2 任务-->
+    <trigger>
+      <cron>
+        <name>ItemJobTrigger3</name>
+        <group>DItemJobTriggerGroup3</group>
+        <job-name>ItemJob3</job-name>
+        <job-group>ItemJobGroup3</job-group>
+        <cron-expression>0/5 * * * * ?</cron-expression>
+      </cron>
+    </trigger>
     
   </schedule>
 </job-scheduling-data>

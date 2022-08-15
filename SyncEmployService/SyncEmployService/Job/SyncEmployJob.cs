@@ -1,4 +1,5 @@
 ﻿using Quartz;
+using SyncEmployService.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +14,9 @@ namespace SyncEmployService.Job
         {
             return Task.Factory.StartNew(() =>
             {
-                Console.WriteLine("Hello Quartz.Net");
+                ITestService testService = new TestService();
+                var a= testService.Sum(1, 2);
+                Console.WriteLine("Hello Quartz.Net"+$"  a:{a}");
             });
         }
     }
