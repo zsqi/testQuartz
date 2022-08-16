@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SyncEmployService.Service
+namespace SyncEmployService.IRepository
 {
-    public interface ITestService
+    public interface ITestRepository
     {
         /// <summary>
         /// 求和

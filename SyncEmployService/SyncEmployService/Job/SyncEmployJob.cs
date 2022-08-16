@@ -1,4 +1,5 @@
 ﻿using Quartz;
+using SyncEmployService.IService;
 using SyncEmployService.Service;
 using System;
 using System.Collections.Generic;

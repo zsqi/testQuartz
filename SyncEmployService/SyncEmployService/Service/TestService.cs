@@ -1,4 +1,6 @@
-﻿using SyncEmployService.Repository;
+﻿using SyncEmployService.IRepository;
+using SyncEmployService.IService;
+using SyncEmployService.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
