@@ -1,4 +1,5 @@
-﻿using Quartz;
+﻿using Autofac;
+using Quartz;
 using SyncEmployService.IService;
 using SyncEmployService.Service;
 using System;
@@ -13,11 +14,11 @@ namespace SyncEmployService.Job
     {
         public Task Execute(IJobExecutionContext context)
         {
-            return Task.Factory.StartNew(() =>
+            return Task.Factory.StartNew(async () =>
             {
-                ITestService testService = new TestService();
-                var a= testService.Sum(1, 2);
-                Console.WriteLine("Hello Quartz.Net"+$"  a:{a}");
+                var container = DependencyConfig.GetContainer();
+                var jobService = container.Resolve<JobService>();
+                await jobService.SyncEmployJobAsync();
             });
         }
     }

@@ -14,6 +14,6 @@ namespace SyncEmployService.IService
         /// <param name="i"></param>
         /// <param name="j"></param>
         /// <returns></returns>
-        int Sum(int i, int j);
+        Task<int> Sum(int i, int j);
     }
 }

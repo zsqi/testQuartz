@@ -1,0 +1,689 @@
+#@@@2022-08-16 11:49:41,864 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz.NET properties loaded from configuration file 'E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz.config'@@@
+#@@@2022-08-16 11:49:41,954 [1] WARN  Quartz.Simpl.TaskSchedulingThreadPool - (?)  Thread priority is no longer supported for thread pool, ignoring@@@
+#@@@2022-08-16 11:49:41,974 [1] WARN  Quartz.Impl.StdSchedulerFactory - (0)  RemotingSchedulerExporter configuration was ignored as Remoting is not supported@@@
+#@@@2022-08-16 11:49:41,993 [1] INFO  Quartz.Core.SchedulerSignalerImpl - (0)  Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl@@@
+#@@@2022-08-16 11:49:41,993 [1] INFO  Quartz.Core.QuartzScheduler - (?)  Quartz Scheduler created@@@
+#@@@2022-08-16 11:49:42,003 [1] INFO  Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin - (?)  Registering Quartz Job Initialization Plug-in.@@@
+#@@@2022-08-16 11:49:42,007 [1] INFO  Quartz.Simpl.RAMJobStore - (?)  RAMJobStore initialized.@@@
+#@@@2022-08-16 11:49:42,011 [1] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+@@@
+#@@@2022-08-16 11:49:42,012 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler 'ServerScheduler' initialized@@@
+#@@@2022-08-16 11:49:42,013 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler version: 3.4.0.0@@@
+#@@@2022-08-16 11:49:42,043 [1] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (?)  Parsing XML file: E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz_jobs.xml with systemId: ~/quartz_jobs.xml@@@
+#@@@2022-08-16 11:49:42,215 [8] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding 3 jobs, 3 triggers.@@@
+#@@@2022-08-16 11:49:42,218 [8] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup.ItemJob@@@
+#@@@2022-08-16 11:49:42,224 [8] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup2.ItemJob2@@@
+#@@@2022-08-16 11:49:42,225 [8] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup3.ItemJob3@@@
+#@@@2022-08-16 11:49:42,255 [8] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler ServerScheduler_$_NON_CLUSTERED started.@@@
+#@@@2022-08-16 11:49:42,257 [8] INFO  System.Object - (24)  任务调度器已启动 info@@@
+#@@@2022-08-16 11:49:45,022 [9] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:49:50,003 [10] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:49:55,004 [10] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:50:00,014 [13] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:50:05,010 [9] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:50:10,013 [3] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:50:15,002 [15] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:50:20,015 [8] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:50:25,010 [9] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:50:30,001 [8] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:50:35,002 [8] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:50:40,003 [8] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:50:45,001 [8] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:50:50,004 [8] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:50:55,011 [9] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:51:00,014 [8] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:51:05,010 [13] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:51:10,012 [10] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:51:15,007 [3] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:51:20,005 [8] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:51:25,002 [3] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:51:30,004 [14] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:51:35,002 [14] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:51:40,000 [3] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:51:45,004 [14] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:51:50,014 [8] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:51:55,015 [14] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:52:00,009 [14] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:52:05,008 [3] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:57:23,346 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz.NET properties loaded from configuration file 'E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz.config'@@@
+#@@@2022-08-16 11:57:23,453 [1] WARN  Quartz.Simpl.TaskSchedulingThreadPool - (?)  Thread priority is no longer supported for thread pool, ignoring@@@
+#@@@2022-08-16 11:57:23,473 [1] WARN  Quartz.Impl.StdSchedulerFactory - (0)  RemotingSchedulerExporter configuration was ignored as Remoting is not supported@@@
+#@@@2022-08-16 11:57:23,492 [1] INFO  Quartz.Core.SchedulerSignalerImpl - (0)  Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl@@@
+#@@@2022-08-16 11:57:23,500 [1] INFO  Quartz.Core.QuartzScheduler - (?)  Quartz Scheduler created@@@
+#@@@2022-08-16 11:57:23,504 [1] INFO  Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin - (?)  Registering Quartz Job Initialization Plug-in.@@@
+#@@@2022-08-16 11:57:23,508 [1] INFO  Quartz.Simpl.RAMJobStore - (?)  RAMJobStore initialized.@@@
+#@@@2022-08-16 11:57:23,512 [1] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+@@@
+#@@@2022-08-16 11:57:23,513 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler 'ServerScheduler' initialized@@@
+#@@@2022-08-16 11:57:23,514 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler version: 3.4.0.0@@@
+#@@@2022-08-16 11:57:23,549 [1] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (?)  Parsing XML file: E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz_jobs.xml with systemId: ~/quartz_jobs.xml@@@
+#@@@2022-08-16 11:57:23,756 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding 3 jobs, 3 triggers.@@@
+#@@@2022-08-16 11:57:23,759 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup.ItemJob@@@
+#@@@2022-08-16 11:57:23,765 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup2.ItemJob2@@@
+#@@@2022-08-16 11:57:23,766 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup3.ItemJob3@@@
+#@@@2022-08-16 11:57:23,799 [9] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler ServerScheduler_$_NON_CLUSTERED started.@@@
+#@@@2022-08-16 11:57:23,800 [9] INFO  System.Object - (24)  任务调度器已启动 info@@@
+#@@@2022-08-16 11:57:25,015 [5] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:57:30,003 [8] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:58:06,533 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz.NET properties loaded from configuration file 'E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz.config'@@@
+#@@@2022-08-16 11:58:06,617 [1] WARN  Quartz.Simpl.TaskSchedulingThreadPool - (?)  Thread priority is no longer supported for thread pool, ignoring@@@
+#@@@2022-08-16 11:58:06,629 [1] WARN  Quartz.Impl.StdSchedulerFactory - (0)  RemotingSchedulerExporter configuration was ignored as Remoting is not supported@@@
+#@@@2022-08-16 11:58:06,640 [1] INFO  Quartz.Core.SchedulerSignalerImpl - (0)  Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl@@@
+#@@@2022-08-16 11:58:06,641 [1] INFO  Quartz.Core.QuartzScheduler - (?)  Quartz Scheduler created@@@
+#@@@2022-08-16 11:58:06,648 [1] INFO  Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin - (?)  Registering Quartz Job Initialization Plug-in.@@@
+#@@@2022-08-16 11:58:06,651 [1] INFO  Quartz.Simpl.RAMJobStore - (?)  RAMJobStore initialized.@@@
+#@@@2022-08-16 11:58:06,654 [1] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+@@@
+#@@@2022-08-16 11:58:06,655 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler 'ServerScheduler' initialized@@@
+#@@@2022-08-16 11:58:06,655 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler version: 3.4.0.0@@@
+#@@@2022-08-16 11:58:06,680 [1] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (?)  Parsing XML file: E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz_jobs.xml with systemId: ~/quartz_jobs.xml@@@
+#@@@2022-08-16 11:58:06,861 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding 3 jobs, 3 triggers.@@@
+#@@@2022-08-16 11:58:06,867 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup.ItemJob@@@
+#@@@2022-08-16 11:58:06,876 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup2.ItemJob2@@@
+#@@@2022-08-16 11:58:06,876 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup3.ItemJob3@@@
+#@@@2022-08-16 11:58:06,913 [9] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler ServerScheduler_$_NON_CLUSTERED started.@@@
+#@@@2022-08-16 11:58:06,915 [9] INFO  System.Object - (24)  任务调度器已启动 info@@@
+#@@@2022-08-16 11:58:10,013 [9] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 11:58:15,004 [9] INFO  System.Object - (25)  EmployService.EmployService@@@
+#@@@2022-08-16 13:46:38,799 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz.NET properties loaded from configuration file 'E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz.config'@@@
+#@@@2022-08-16 13:46:39,047 [1] WARN  Quartz.Simpl.TaskSchedulingThreadPool - (?)  Thread priority is no longer supported for thread pool, ignoring@@@
+#@@@2022-08-16 13:46:39,130 [1] WARN  Quartz.Impl.StdSchedulerFactory - (0)  RemotingSchedulerExporter configuration was ignored as Remoting is not supported@@@
+#@@@2022-08-16 13:46:39,158 [1] INFO  Quartz.Core.SchedulerSignalerImpl - (0)  Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl@@@
+#@@@2022-08-16 13:46:39,159 [1] INFO  Quartz.Core.QuartzScheduler - (?)  Quartz Scheduler created@@@
+#@@@2022-08-16 13:46:39,162 [1] INFO  Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin - (?)  Registering Quartz Job Initialization Plug-in.@@@
+#@@@2022-08-16 13:46:39,171 [1] INFO  Quartz.Simpl.RAMJobStore - (?)  RAMJobStore initialized.@@@
+#@@@2022-08-16 13:46:39,174 [1] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+@@@
+#@@@2022-08-16 13:46:39,175 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler 'ServerScheduler' initialized@@@
+#@@@2022-08-16 13:46:39,175 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler version: 3.4.0.0@@@
+#@@@2022-08-16 13:46:39,207 [1] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (?)  Parsing XML file: E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz_jobs.xml with systemId: ~/quartz_jobs.xml@@@
+#@@@2022-08-16 13:46:39,387 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding 3 jobs, 3 triggers.@@@
+#@@@2022-08-16 13:46:39,391 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup.ItemJob@@@
+#@@@2022-08-16 13:46:39,395 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup2.ItemJob2@@@
+#@@@2022-08-16 13:46:39,395 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup3.ItemJob3@@@
+#@@@2022-08-16 13:46:39,424 [5] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler ServerScheduler_$_NON_CLUSTERED started.@@@
+#@@@2022-08-16 13:46:39,426 [5] INFO  System.Object - (32)  SyncEmployService Start Succsee@@@
+#@@@2022-08-16 13:46:42,211 [8] INFO  System.Object - (27)  EmployService.EmployService@@@
+#@@@2022-08-16 13:46:46,625 [8] ERROR System.Object - (29)  SyncEmployAsync Error@@@
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at SyncEmployService.Service.EmployService.SyncEmployAsync() in E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\Service\EmployService.cs:line 29
+#@@@2022-08-16 13:46:54,035 [3] INFO  System.Object - (27)  EmployService.EmployService@@@
+#@@@2022-08-16 13:46:50,871 [5] INFO  System.Object - (27)  EmployService.EmployService@@@
+#@@@2022-08-16 13:46:54,120 [3] ERROR System.Object - (29)  SyncEmployAsync Error@@@
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at SyncEmployService.Service.EmployService.SyncEmployAsync() in E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\Service\EmployService.cs:line 29
+#@@@2022-08-16 13:46:54,132 [5] ERROR System.Object - (29)  SyncEmployAsync Error@@@
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at SyncEmployService.Service.EmployService.SyncEmployAsync() in E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\Service\EmployService.cs:line 29
+#@@@2022-08-16 13:46:55,000 [5] INFO  System.Object - (27)  EmployService.EmployService@@@
+#@@@2022-08-16 13:46:55,010 [5] ERROR System.Object - (29)  SyncEmployAsync Error@@@
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at SyncEmployService.Service.EmployService.SyncEmployAsync() in E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\Service\EmployService.cs:line 29
+#@@@2022-08-16 13:47:00,005 [10] INFO  System.Object - (27)  EmployService.EmployService@@@
+#@@@2022-08-16 13:47:00,017 [10] ERROR System.Object - (29)  SyncEmployAsync Error@@@
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at SyncEmployService.Service.EmployService.SyncEmployAsync() in E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\Service\EmployService.cs:line 29
+#@@@2022-08-16 14:43:25,093 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz.NET properties loaded from configuration file 'E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz.config'@@@
+#@@@2022-08-16 14:43:25,259 [1] WARN  Quartz.Simpl.TaskSchedulingThreadPool - (?)  Thread priority is no longer supported for thread pool, ignoring@@@
+#@@@2022-08-16 14:43:25,273 [1] WARN  Quartz.Impl.StdSchedulerFactory - (0)  RemotingSchedulerExporter configuration was ignored as Remoting is not supported@@@
+#@@@2022-08-16 14:43:25,289 [1] INFO  Quartz.Core.SchedulerSignalerImpl - (0)  Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl@@@
+#@@@2022-08-16 14:43:25,290 [1] INFO  Quartz.Core.QuartzScheduler - (?)  Quartz Scheduler created@@@
+#@@@2022-08-16 14:43:25,294 [1] INFO  Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin - (?)  Registering Quartz Job Initialization Plug-in.@@@
+#@@@2022-08-16 14:43:25,307 [1] INFO  Quartz.Simpl.RAMJobStore - (?)  RAMJobStore initialized.@@@
+#@@@2022-08-16 14:43:25,311 [1] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+@@@
+#@@@2022-08-16 14:43:25,311 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler 'ServerScheduler' initialized@@@
+#@@@2022-08-16 14:43:25,312 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler version: 3.4.0.0@@@
+#@@@2022-08-16 14:43:25,341 [1] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (?)  Parsing XML file: E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz_jobs.xml with systemId: ~/quartz_jobs.xml@@@
+#@@@2022-08-16 14:43:25,515 [8] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding 3 jobs, 3 triggers.@@@
+#@@@2022-08-16 14:43:25,517 [8] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup.ItemJob@@@
+#@@@2022-08-16 14:43:25,521 [8] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup2.ItemJob2@@@
+#@@@2022-08-16 14:43:25,522 [8] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup3.ItemJob3@@@
+#@@@2022-08-16 14:43:25,546 [8] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler ServerScheduler_$_NON_CLUSTERED started.@@@
+#@@@2022-08-16 14:43:25,548 [8] INFO  System.Object - (32)  SyncEmployService Start Succsee@@@
+#@@@2022-08-16 14:44:41,897 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz.NET properties loaded from configuration file 'E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz.config'@@@
+#@@@2022-08-16 14:44:42,028 [1] WARN  Quartz.Simpl.TaskSchedulingThreadPool - (?)  Thread priority is no longer supported for thread pool, ignoring@@@
+#@@@2022-08-16 14:44:42,043 [1] WARN  Quartz.Impl.StdSchedulerFactory - (0)  RemotingSchedulerExporter configuration was ignored as Remoting is not supported@@@
+#@@@2022-08-16 14:44:42,059 [1] INFO  Quartz.Core.SchedulerSignalerImpl - (0)  Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl@@@
+#@@@2022-08-16 14:44:42,060 [1] INFO  Quartz.Core.QuartzScheduler - (?)  Quartz Scheduler created@@@
+#@@@2022-08-16 14:44:42,071 [1] INFO  Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin - (?)  Registering Quartz Job Initialization Plug-in.@@@
+#@@@2022-08-16 14:44:42,076 [1] INFO  Quartz.Simpl.RAMJobStore - (?)  RAMJobStore initialized.@@@
+#@@@2022-08-16 14:44:42,081 [1] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+@@@
+#@@@2022-08-16 14:44:42,082 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler 'ServerScheduler' initialized@@@
+#@@@2022-08-16 14:44:42,082 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler version: 3.4.0.0@@@
+#@@@2022-08-16 14:44:42,116 [1] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (?)  Parsing XML file: E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz_jobs.xml with systemId: ~/quartz_jobs.xml@@@
+#@@@2022-08-16 14:44:42,322 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding 3 jobs, 3 triggers.@@@
+#@@@2022-08-16 14:44:42,329 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup.ItemJob@@@
+#@@@2022-08-16 14:44:42,341 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup2.ItemJob2@@@
+#@@@2022-08-16 14:44:42,342 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup3.ItemJob3@@@
+#@@@2022-08-16 14:44:42,382 [9] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler ServerScheduler_$_NON_CLUSTERED started.@@@
+#@@@2022-08-16 14:44:42,384 [9] INFO  System.Object - (32)  SyncEmployService Start Succsee@@@
+#@@@2022-08-16 14:49:13,806 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz.NET properties loaded from configuration file 'E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz.config'@@@
+#@@@2022-08-16 14:49:13,918 [1] WARN  Quartz.Simpl.TaskSchedulingThreadPool - (?)  Thread priority is no longer supported for thread pool, ignoring@@@
+#@@@2022-08-16 14:49:13,930 [1] WARN  Quartz.Impl.StdSchedulerFactory - (0)  RemotingSchedulerExporter configuration was ignored as Remoting is not supported@@@
+#@@@2022-08-16 14:49:13,940 [1] INFO  Quartz.Core.SchedulerSignalerImpl - (0)  Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl@@@
+#@@@2022-08-16 14:49:13,941 [1] INFO  Quartz.Core.QuartzScheduler - (?)  Quartz Scheduler created@@@
+#@@@2022-08-16 14:49:13,948 [1] INFO  Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin - (?)  Registering Quartz Job Initialization Plug-in.@@@
+#@@@2022-08-16 14:49:13,951 [1] INFO  Quartz.Simpl.RAMJobStore - (?)  RAMJobStore initialized.@@@
+#@@@2022-08-16 14:49:13,954 [1] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+@@@
+#@@@2022-08-16 14:49:13,955 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler 'ServerScheduler' initialized@@@
+#@@@2022-08-16 14:49:13,955 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler version: 3.4.0.0@@@
+#@@@2022-08-16 14:49:13,983 [1] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (?)  Parsing XML file: E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz_jobs.xml with systemId: ~/quartz_jobs.xml@@@
+#@@@2022-08-16 14:49:14,124 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding 3 jobs, 3 triggers.@@@
+#@@@2022-08-16 14:49:14,127 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup.ItemJob@@@
+#@@@2022-08-16 14:49:14,132 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup2.ItemJob2@@@
+#@@@2022-08-16 14:49:14,132 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup3.ItemJob3@@@
+#@@@2022-08-16 14:49:14,158 [9] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler ServerScheduler_$_NON_CLUSTERED started.@@@
+#@@@2022-08-16 14:49:14,160 [9] INFO  System.Object - (32)  SyncEmployService Start Succsee@@@
+#@@@2022-08-16 14:54:16,339 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz.NET properties loaded from configuration file 'E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz.config'@@@
+#@@@2022-08-16 14:54:16,461 [1] WARN  Quartz.Simpl.TaskSchedulingThreadPool - (?)  Thread priority is no longer supported for thread pool, ignoring@@@
+#@@@2022-08-16 14:54:16,477 [1] WARN  Quartz.Impl.StdSchedulerFactory - (0)  RemotingSchedulerExporter configuration was ignored as Remoting is not supported@@@
+#@@@2022-08-16 14:54:16,490 [1] INFO  Quartz.Core.SchedulerSignalerImpl - (0)  Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl@@@
+#@@@2022-08-16 14:54:16,491 [1] INFO  Quartz.Core.QuartzScheduler - (?)  Quartz Scheduler created@@@
+#@@@2022-08-16 14:54:16,498 [1] INFO  Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin - (?)  Registering Quartz Job Initialization Plug-in.@@@
+#@@@2022-08-16 14:54:16,502 [1] INFO  Quartz.Simpl.RAMJobStore - (?)  RAMJobStore initialized.@@@
+#@@@2022-08-16 14:54:16,506 [1] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+@@@
+#@@@2022-08-16 14:54:16,506 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler 'ServerScheduler' initialized@@@
+#@@@2022-08-16 14:54:16,507 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler version: 3.4.0.0@@@
+#@@@2022-08-16 14:54:16,539 [1] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (?)  Parsing XML file: E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz_jobs.xml with systemId: ~/quartz_jobs.xml@@@
+#@@@2022-08-16 14:54:16,756 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding 3 jobs, 3 triggers.@@@
+#@@@2022-08-16 14:54:16,760 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup.ItemJob@@@
+#@@@2022-08-16 14:54:16,766 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup2.ItemJob2@@@
+#@@@2022-08-16 14:54:16,767 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup3.ItemJob3@@@
+#@@@2022-08-16 14:54:16,812 [5] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler ServerScheduler_$_NON_CLUSTERED started.@@@
+#@@@2022-08-16 14:54:16,814 [5] INFO  System.Object - (32)  SyncEmployService Start Succsee@@@
+#@@@2022-08-16 14:54:20,077 [5] INFO  System.Object - (30)  EmployService.EmployService@@@
+#@@@2022-08-16 14:54:20,097 [5] ERROR System.Object - (32)  SyncEmployAsync Error@@@
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at SyncEmployService.Service.EmployService.SyncEmployAsync() in E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\Service\EmployService.cs:line 32
+#@@@2022-08-16 14:54:25,002 [5] INFO  System.Object - (30)  EmployService.EmployService@@@
+#@@@2022-08-16 14:54:25,014 [5] ERROR System.Object - (32)  SyncEmployAsync Error@@@
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at SyncEmployService.Service.EmployService.SyncEmployAsync() in E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\Service\EmployService.cs:line 32
+#@@@2022-08-16 14:54:30,013 [12] INFO  System.Object - (30)  EmployService.EmployService@@@
+#@@@2022-08-16 14:54:30,026 [12] ERROR System.Object - (32)  SyncEmployAsync Error@@@
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at SyncEmployService.Service.EmployService.SyncEmployAsync() in E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\Service\EmployService.cs:line 32
+#@@@2022-08-16 14:54:35,005 [3] INFO  System.Object - (30)  EmployService.EmployService@@@
+#@@@2022-08-16 14:54:35,018 [3] ERROR System.Object - (32)  SyncEmployAsync Error@@@
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at SyncEmployService.Service.EmployService.SyncEmployAsync() in E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\Service\EmployService.cs:line 32
+#@@@2022-08-16 14:55:01,299 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz.NET properties loaded from configuration file 'E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz.config'@@@
+#@@@2022-08-16 14:55:01,381 [1] WARN  Quartz.Simpl.TaskSchedulingThreadPool - (?)  Thread priority is no longer supported for thread pool, ignoring@@@
+#@@@2022-08-16 14:55:01,403 [1] WARN  Quartz.Impl.StdSchedulerFactory - (0)  RemotingSchedulerExporter configuration was ignored as Remoting is not supported@@@
+#@@@2022-08-16 14:55:01,421 [1] INFO  Quartz.Core.SchedulerSignalerImpl - (0)  Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl@@@
+#@@@2022-08-16 14:55:01,428 [1] INFO  Quartz.Core.QuartzScheduler - (?)  Quartz Scheduler created@@@
+#@@@2022-08-16 14:55:01,433 [1] INFO  Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin - (?)  Registering Quartz Job Initialization Plug-in.@@@
+#@@@2022-08-16 14:55:01,437 [1] INFO  Quartz.Simpl.RAMJobStore - (?)  RAMJobStore initialized.@@@
+#@@@2022-08-16 14:55:01,442 [1] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+@@@
+#@@@2022-08-16 14:55:01,443 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler 'ServerScheduler' initialized@@@
+#@@@2022-08-16 14:55:01,443 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler version: 3.4.0.0@@@
+#@@@2022-08-16 14:55:01,480 [1] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (?)  Parsing XML file: E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz_jobs.xml with systemId: ~/quartz_jobs.xml@@@
+#@@@2022-08-16 14:55:01,673 [8] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding 3 jobs, 3 triggers.@@@
+#@@@2022-08-16 14:55:01,678 [8] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup.ItemJob@@@
+#@@@2022-08-16 14:55:01,684 [8] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup2.ItemJob2@@@
+#@@@2022-08-16 14:55:01,684 [8] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup3.ItemJob3@@@
+#@@@2022-08-16 14:55:01,720 [8] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler ServerScheduler_$_NON_CLUSTERED started.@@@
+#@@@2022-08-16 14:55:01,723 [8] INFO  System.Object - (32)  SyncEmployService Start Succsee@@@
+#@@@2022-08-16 14:55:05,068 [5] INFO  System.Object - (30)  EmployService.EmployService@@@
+#@@@2022-08-16 14:55:05,086 [5] ERROR System.Object - (32)  SyncEmployAsync Error@@@
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at SyncEmployService.Service.EmployService.SyncEmployAsync() in E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\Service\EmployService.cs:line 32
+#@@@2022-08-16 14:55:10,008 [5] INFO  System.Object - (30)  EmployService.EmployService@@@
+#@@@2022-08-16 14:55:10,022 [5] ERROR System.Object - (32)  SyncEmployAsync Error@@@
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at SyncEmployService.Service.EmployService.SyncEmployAsync() in E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\Service\EmployService.cs:line 32
+#@@@2022-08-16 14:55:44,567 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz.NET properties loaded from configuration file 'E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz.config'@@@
+#@@@2022-08-16 14:55:44,645 [1] WARN  Quartz.Simpl.TaskSchedulingThreadPool - (?)  Thread priority is no longer supported for thread pool, ignoring@@@
+#@@@2022-08-16 14:55:44,659 [1] WARN  Quartz.Impl.StdSchedulerFactory - (0)  RemotingSchedulerExporter configuration was ignored as Remoting is not supported@@@
+#@@@2022-08-16 14:55:44,672 [1] INFO  Quartz.Core.SchedulerSignalerImpl - (0)  Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl@@@
+#@@@2022-08-16 14:55:44,672 [1] INFO  Quartz.Core.QuartzScheduler - (?)  Quartz Scheduler created@@@
+#@@@2022-08-16 14:55:44,679 [1] INFO  Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin - (?)  Registering Quartz Job Initialization Plug-in.@@@
+#@@@2022-08-16 14:55:44,682 [1] INFO  Quartz.Simpl.RAMJobStore - (?)  RAMJobStore initialized.@@@
+#@@@2022-08-16 14:55:44,686 [1] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+@@@
+#@@@2022-08-16 14:55:44,687 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler 'ServerScheduler' initialized@@@
+#@@@2022-08-16 14:55:44,687 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler version: 3.4.0.0@@@
+#@@@2022-08-16 14:55:44,712 [1] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (?)  Parsing XML file: E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz_jobs.xml with systemId: ~/quartz_jobs.xml@@@
+#@@@2022-08-16 14:55:44,895 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding 3 jobs, 3 triggers.@@@
+#@@@2022-08-16 14:55:44,901 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup.ItemJob@@@
+#@@@2022-08-16 14:55:44,909 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup2.ItemJob2@@@
+#@@@2022-08-16 14:55:44,909 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup3.ItemJob3@@@
+#@@@2022-08-16 14:55:44,950 [9] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler ServerScheduler_$_NON_CLUSTERED started.@@@
+#@@@2022-08-16 14:55:44,952 [9] INFO  System.Object - (32)  SyncEmployService Start Succsee@@@
+#@@@2022-08-16 14:55:50,148 [5] INFO  System.Object - (30)  EmployService.EmployService@@@
+#@@@2022-08-16 14:55:54,166 [9] INFO  System.Object - (30)  EmployService.EmployService@@@
+#@@@2022-08-16 14:55:54,177 [5] ERROR System.Object - (32)  SyncEmployAsync Error@@@
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at SyncEmployService.Service.EmployService.SyncEmployAsync() in E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\Service\EmployService.cs:line 32
+#@@@2022-08-16 14:55:54,189 [9] ERROR System.Object - (32)  SyncEmployAsync Error@@@
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at SyncEmployService.Service.EmployService.SyncEmployAsync() in E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\Service\EmployService.cs:line 32
+#@@@2022-08-16 14:55:58,003 [10] INFO  System.Object - (30)  EmployService.EmployService@@@
+#@@@2022-08-16 14:55:58,016 [10] ERROR System.Object - (32)  SyncEmployAsync Error@@@
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at SyncEmployService.Service.EmployService.SyncEmployAsync() in E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\Service\EmployService.cs:line 32
+#@@@2022-08-16 14:56:09,614 [10] INFO  System.Object - (30)  EmployService.EmployService@@@
+#@@@2022-08-16 14:56:09,633 [10] ERROR System.Object - (32)  SyncEmployAsync Error@@@
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at SyncEmployService.Service.EmployService.SyncEmployAsync() in E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\Service\EmployService.cs:line 32
+#@@@2022-08-16 14:56:16,947 [10] INFO  System.Object - (30)  EmployService.EmployService@@@
+#@@@2022-08-16 14:56:18,470 [8] INFO  System.Object - (30)  EmployService.EmployService@@@
+#@@@2022-08-16 14:56:18,479 [10] ERROR System.Object - (32)  SyncEmployAsync Error@@@
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at SyncEmployService.Service.EmployService.SyncEmployAsync() in E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\Service\EmployService.cs:line 32
+#@@@2022-08-16 14:56:18,491 [8] ERROR System.Object - (32)  SyncEmployAsync Error@@@
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at SyncEmployService.Service.EmployService.SyncEmployAsync() in E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\Service\EmployService.cs:line 32
+#@@@2022-08-16 14:56:24,772 [11] INFO  System.Object - (30)  EmployService.EmployService@@@
+#@@@2022-08-16 14:56:37,165 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz.NET properties loaded from configuration file 'E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz.config'@@@
+#@@@2022-08-16 14:56:37,250 [1] WARN  Quartz.Simpl.TaskSchedulingThreadPool - (?)  Thread priority is no longer supported for thread pool, ignoring@@@
+#@@@2022-08-16 14:56:37,262 [1] WARN  Quartz.Impl.StdSchedulerFactory - (0)  RemotingSchedulerExporter configuration was ignored as Remoting is not supported@@@
+#@@@2022-08-16 14:56:37,274 [1] INFO  Quartz.Core.SchedulerSignalerImpl - (0)  Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl@@@
+#@@@2022-08-16 14:56:37,274 [1] INFO  Quartz.Core.QuartzScheduler - (?)  Quartz Scheduler created@@@
+#@@@2022-08-16 14:56:37,282 [1] INFO  Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin - (?)  Registering Quartz Job Initialization Plug-in.@@@
+#@@@2022-08-16 14:56:37,285 [1] INFO  Quartz.Simpl.RAMJobStore - (?)  RAMJobStore initialized.@@@
+#@@@2022-08-16 14:56:37,287 [1] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+@@@
+#@@@2022-08-16 14:56:37,288 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler 'ServerScheduler' initialized@@@
+#@@@2022-08-16 14:56:37,288 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler version: 3.4.0.0@@@
+#@@@2022-08-16 14:56:37,312 [1] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (?)  Parsing XML file: E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz_jobs.xml with systemId: ~/quartz_jobs.xml@@@
+#@@@2022-08-16 14:56:37,478 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding 3 jobs, 3 triggers.@@@
+#@@@2022-08-16 14:56:37,483 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup.ItemJob@@@
+#@@@2022-08-16 14:56:37,489 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup2.ItemJob2@@@
+#@@@2022-08-16 14:56:37,489 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup3.ItemJob3@@@
+#@@@2022-08-16 14:56:37,518 [9] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler ServerScheduler_$_NON_CLUSTERED started.@@@
+#@@@2022-08-16 14:56:37,520 [9] INFO  System.Object - (32)  SyncEmployService Start Succsee@@@
+#@@@2022-08-16 14:56:42,798 [5] INFO  System.Object - (30)  EmployService.EmployService@@@
+#@@@2022-08-16 14:57:06,318 [9] INFO  System.Object - (30)  EmployService.EmployService@@@
+#@@@2022-08-16 14:57:14,415 [10] INFO  System.Object - (30)  EmployService.EmployService@@@
+#@@@2022-08-16 14:57:17,912 [11] INFO  System.Object - (30)  EmployService.EmployService@@@
+#@@@2022-08-16 14:57:20,012 [12] INFO  System.Object - (30)  EmployService.EmployService@@@
+#@@@2022-08-16 14:57:25,004 [8] INFO  System.Object - (30)  EmployService.EmployService@@@
+#@@@2022-08-16 14:57:30,013 [17] INFO  System.Object - (30)  EmployService.EmployService@@@
+#@@@2022-08-16 14:57:34,474 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz.NET properties loaded from configuration file 'E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz.config'@@@
+#@@@2022-08-16 14:57:34,557 [1] WARN  Quartz.Simpl.TaskSchedulingThreadPool - (?)  Thread priority is no longer supported for thread pool, ignoring@@@
+#@@@2022-08-16 14:57:34,572 [1] WARN  Quartz.Impl.StdSchedulerFactory - (0)  RemotingSchedulerExporter configuration was ignored as Remoting is not supported@@@
+#@@@2022-08-16 14:57:34,584 [1] INFO  Quartz.Core.SchedulerSignalerImpl - (0)  Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl@@@
+#@@@2022-08-16 14:57:34,584 [1] INFO  Quartz.Core.QuartzScheduler - (?)  Quartz Scheduler created@@@
+#@@@2022-08-16 14:57:34,592 [1] INFO  Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin - (?)  Registering Quartz Job Initialization Plug-in.@@@
+#@@@2022-08-16 14:57:34,596 [1] INFO  Quartz.Simpl.RAMJobStore - (?)  RAMJobStore initialized.@@@
+#@@@2022-08-16 14:57:34,599 [1] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+@@@
+#@@@2022-08-16 14:57:34,600 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler 'ServerScheduler' initialized@@@
+#@@@2022-08-16 14:57:34,601 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler version: 3.4.0.0@@@
+#@@@2022-08-16 14:57:34,625 [1] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (?)  Parsing XML file: E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz_jobs.xml with systemId: ~/quartz_jobs.xml@@@
+#@@@2022-08-16 14:57:34,784 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding 3 jobs, 3 triggers.@@@
+#@@@2022-08-16 14:57:34,786 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup.ItemJob@@@
+#@@@2022-08-16 14:57:34,790 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup2.ItemJob2@@@
+#@@@2022-08-16 14:57:34,791 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup3.ItemJob3@@@
+#@@@2022-08-16 14:57:34,820 [5] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler ServerScheduler_$_NON_CLUSTERED started.@@@
+#@@@2022-08-16 14:57:34,822 [5] INFO  System.Object - (32)  SyncEmployService Start Succsee@@@
+#@@@2022-08-16 14:57:35,142 [3] INFO  System.Object - (30)  EmployService.EmployService@@@
+#@@@2022-08-16 14:57:40,009 [5] INFO  System.Object - (30)  EmployService.EmployService@@@
+#@@@2022-08-16 15:26:25,064 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz.NET properties loaded from configuration file 'E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz.config'@@@
+#@@@2022-08-16 15:26:25,154 [1] WARN  Quartz.Simpl.TaskSchedulingThreadPool - (?)  Thread priority is no longer supported for thread pool, ignoring@@@
+#@@@2022-08-16 15:26:25,166 [1] WARN  Quartz.Impl.StdSchedulerFactory - (0)  RemotingSchedulerExporter configuration was ignored as Remoting is not supported@@@
+#@@@2022-08-16 15:26:25,177 [1] INFO  Quartz.Core.SchedulerSignalerImpl - (0)  Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl@@@
+#@@@2022-08-16 15:26:25,178 [1] INFO  Quartz.Core.QuartzScheduler - (?)  Quartz Scheduler created@@@
+#@@@2022-08-16 15:26:25,186 [1] INFO  Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin - (?)  Registering Quartz Job Initialization Plug-in.@@@
+#@@@2022-08-16 15:26:25,189 [1] INFO  Quartz.Simpl.RAMJobStore - (?)  RAMJobStore initialized.@@@
+#@@@2022-08-16 15:26:25,193 [1] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+@@@
+#@@@2022-08-16 15:26:25,193 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler 'ServerScheduler' initialized@@@
+#@@@2022-08-16 15:26:25,194 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler version: 3.4.0.0@@@
+#@@@2022-08-16 15:26:25,220 [1] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (?)  Parsing XML file: E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz_jobs.xml with systemId: ~/quartz_jobs.xml@@@
+#@@@2022-08-16 15:26:25,345 [3] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding 3 jobs, 3 triggers.@@@
+#@@@2022-08-16 15:26:25,349 [3] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup.ItemJob@@@
+#@@@2022-08-16 15:26:25,355 [3] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup2.ItemJob2@@@
+#@@@2022-08-16 15:26:25,356 [3] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup3.ItemJob3@@@
+#@@@2022-08-16 15:26:25,404 [3] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler ServerScheduler_$_NON_CLUSTERED started.@@@
+#@@@2022-08-16 15:26:25,407 [3] INFO  System.Object - (32)  SyncEmployService Start Succsee@@@
+#@@@2022-08-16 15:26:52,330 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz.NET properties loaded from configuration file 'E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz.config'@@@
+#@@@2022-08-16 15:26:52,412 [1] WARN  Quartz.Simpl.TaskSchedulingThreadPool - (?)  Thread priority is no longer supported for thread pool, ignoring@@@
+#@@@2022-08-16 15:26:52,424 [1] WARN  Quartz.Impl.StdSchedulerFactory - (0)  RemotingSchedulerExporter configuration was ignored as Remoting is not supported@@@
+#@@@2022-08-16 15:26:52,435 [1] INFO  Quartz.Core.SchedulerSignalerImpl - (0)  Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl@@@
+#@@@2022-08-16 15:26:52,436 [1] INFO  Quartz.Core.QuartzScheduler - (?)  Quartz Scheduler created@@@
+#@@@2022-08-16 15:26:52,443 [1] INFO  Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin - (?)  Registering Quartz Job Initialization Plug-in.@@@
+#@@@2022-08-16 15:26:52,447 [1] INFO  Quartz.Simpl.RAMJobStore - (?)  RAMJobStore initialized.@@@
+#@@@2022-08-16 15:26:52,450 [1] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+@@@
+#@@@2022-08-16 15:26:52,450 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler 'ServerScheduler' initialized@@@
+#@@@2022-08-16 15:26:52,451 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler version: 3.4.0.0@@@
+#@@@2022-08-16 15:26:52,474 [1] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (?)  Parsing XML file: E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz_jobs.xml with systemId: ~/quartz_jobs.xml@@@
+#@@@2022-08-16 15:26:52,603 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding 3 jobs, 3 triggers.@@@
+#@@@2022-08-16 15:26:52,606 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup.ItemJob@@@
+#@@@2022-08-16 15:26:52,610 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup2.ItemJob2@@@
+#@@@2022-08-16 15:26:52,610 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup3.ItemJob3@@@
+#@@@2022-08-16 15:26:52,639 [5] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler ServerScheduler_$_NON_CLUSTERED started.@@@
+#@@@2022-08-16 15:26:52,641 [5] INFO  System.Object - (32)  SyncEmployService Start Succsee@@@
+#@@@2022-08-16 15:26:56,898 [7] ERROR System.Object - (59)  GetToken@@@
+System.Text.Json.JsonException: 'w' is an invalid start of a value. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: 'w' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadFirstToken(Byte first)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at RestSharp.RestClientExtensions.PostAsync[T](RestClient client, RestRequest request, CancellationToken cancellationToken)
+   at SyncEmployService.Service.EmployService.GetTokenAsync() in E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\Service\EmployService.cs:line 59
+#@@@2022-08-16 15:27:28,133 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz.NET properties loaded from configuration file 'E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz.config'@@@
+#@@@2022-08-16 15:27:28,225 [1] WARN  Quartz.Simpl.TaskSchedulingThreadPool - (?)  Thread priority is no longer supported for thread pool, ignoring@@@
+#@@@2022-08-16 15:27:28,241 [1] WARN  Quartz.Impl.StdSchedulerFactory - (0)  RemotingSchedulerExporter configuration was ignored as Remoting is not supported@@@
+#@@@2022-08-16 15:27:28,258 [1] INFO  Quartz.Core.SchedulerSignalerImpl - (0)  Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl@@@
+#@@@2022-08-16 15:27:28,258 [1] INFO  Quartz.Core.QuartzScheduler - (?)  Quartz Scheduler created@@@
+#@@@2022-08-16 15:27:28,265 [1] INFO  Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin - (?)  Registering Quartz Job Initialization Plug-in.@@@
+#@@@2022-08-16 15:27:28,268 [1] INFO  Quartz.Simpl.RAMJobStore - (?)  RAMJobStore initialized.@@@
+#@@@2022-08-16 15:27:28,272 [1] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+@@@
+#@@@2022-08-16 15:27:28,273 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler 'ServerScheduler' initialized@@@
+#@@@2022-08-16 15:27:28,274 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler version: 3.4.0.0@@@
+#@@@2022-08-16 15:27:28,301 [1] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (?)  Parsing XML file: E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz_jobs.xml with systemId: ~/quartz_jobs.xml@@@
+#@@@2022-08-16 15:27:28,440 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding 3 jobs, 3 triggers.@@@
+#@@@2022-08-16 15:27:28,444 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup.ItemJob@@@
+#@@@2022-08-16 15:27:28,448 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup2.ItemJob2@@@
+#@@@2022-08-16 15:27:28,449 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup3.ItemJob3@@@
+#@@@2022-08-16 15:27:28,476 [9] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler ServerScheduler_$_NON_CLUSTERED started.@@@
+#@@@2022-08-16 15:27:28,478 [9] INFO  System.Object - (32)  SyncEmployService Start Succsee@@@
+#@@@2022-08-16 16:07:54,627 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz.NET properties loaded from configuration file 'E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz.config'@@@
+#@@@2022-08-16 16:07:54,709 [1] WARN  Quartz.Simpl.TaskSchedulingThreadPool - (?)  Thread priority is no longer supported for thread pool, ignoring@@@
+#@@@2022-08-16 16:07:54,723 [1] WARN  Quartz.Impl.StdSchedulerFactory - (0)  RemotingSchedulerExporter configuration was ignored as Remoting is not supported@@@
+#@@@2022-08-16 16:07:54,735 [1] INFO  Quartz.Core.SchedulerSignalerImpl - (0)  Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl@@@
+#@@@2022-08-16 16:07:54,736 [1] INFO  Quartz.Core.QuartzScheduler - (?)  Quartz Scheduler created@@@
+#@@@2022-08-16 16:07:54,745 [1] INFO  Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin - (?)  Registering Quartz Job Initialization Plug-in.@@@
+#@@@2022-08-16 16:07:54,748 [1] INFO  Quartz.Simpl.RAMJobStore - (?)  RAMJobStore initialized.@@@
+#@@@2022-08-16 16:07:54,751 [1] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+@@@
+#@@@2022-08-16 16:07:54,752 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler 'ServerScheduler' initialized@@@
+#@@@2022-08-16 16:07:54,752 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler version: 3.4.0.0@@@
+#@@@2022-08-16 16:07:54,775 [1] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (?)  Parsing XML file: E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz_jobs.xml with systemId: ~/quartz_jobs.xml@@@
+#@@@2022-08-16 16:07:54,966 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding 3 jobs, 3 triggers.@@@
+#@@@2022-08-16 16:07:54,970 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup.ItemJob@@@
+#@@@2022-08-16 16:07:54,975 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup2.ItemJob2@@@
+#@@@2022-08-16 16:07:54,976 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup3.ItemJob3@@@
+#@@@2022-08-16 16:07:55,009 [5] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler ServerScheduler_$_NON_CLUSTERED started.@@@
+#@@@2022-08-16 16:07:55,011 [5] INFO  System.Object - (32)  SyncEmployService Start Succsee@@@
+#@@@2022-08-16 16:08:51,313 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz.NET properties loaded from configuration file 'E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz.config'@@@
+#@@@2022-08-16 16:08:51,400 [1] WARN  Quartz.Simpl.TaskSchedulingThreadPool - (?)  Thread priority is no longer supported for thread pool, ignoring@@@
+#@@@2022-08-16 16:08:51,412 [1] WARN  Quartz.Impl.StdSchedulerFactory - (0)  RemotingSchedulerExporter configuration was ignored as Remoting is not supported@@@
+#@@@2022-08-16 16:08:51,424 [1] INFO  Quartz.Core.SchedulerSignalerImpl - (0)  Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl@@@
+#@@@2022-08-16 16:08:51,425 [1] INFO  Quartz.Core.QuartzScheduler - (?)  Quartz Scheduler created@@@
+#@@@2022-08-16 16:08:51,432 [1] INFO  Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin - (?)  Registering Quartz Job Initialization Plug-in.@@@
+#@@@2022-08-16 16:08:51,435 [1] INFO  Quartz.Simpl.RAMJobStore - (?)  RAMJobStore initialized.@@@
+#@@@2022-08-16 16:08:51,439 [1] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+@@@
+#@@@2022-08-16 16:08:51,440 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler 'ServerScheduler' initialized@@@
+#@@@2022-08-16 16:08:51,440 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler version: 3.4.0.0@@@
+#@@@2022-08-16 16:08:51,470 [1] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (?)  Parsing XML file: E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz_jobs.xml with systemId: ~/quartz_jobs.xml@@@
+#@@@2022-08-16 16:08:51,669 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding 3 jobs, 3 triggers.@@@
+#@@@2022-08-16 16:08:51,677 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup.ItemJob@@@
+#@@@2022-08-16 16:08:51,684 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup2.ItemJob2@@@
+#@@@2022-08-16 16:08:51,684 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup3.ItemJob3@@@
+#@@@2022-08-16 16:08:51,744 [9] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler ServerScheduler_$_NON_CLUSTERED started.@@@
+#@@@2022-08-16 16:08:51,747 [9] INFO  System.Object - (32)  SyncEmployService Start Succsee@@@
+#@@@2022-08-16 16:09:55,109 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz.NET properties loaded from configuration file 'E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz.config'@@@
+#@@@2022-08-16 16:09:55,185 [1] WARN  Quartz.Simpl.TaskSchedulingThreadPool - (?)  Thread priority is no longer supported for thread pool, ignoring@@@
+#@@@2022-08-16 16:09:55,197 [1] WARN  Quartz.Impl.StdSchedulerFactory - (0)  RemotingSchedulerExporter configuration was ignored as Remoting is not supported@@@
+#@@@2022-08-16 16:09:55,208 [1] INFO  Quartz.Core.SchedulerSignalerImpl - (0)  Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl@@@
+#@@@2022-08-16 16:09:55,209 [1] INFO  Quartz.Core.QuartzScheduler - (?)  Quartz Scheduler created@@@
+#@@@2022-08-16 16:09:55,217 [1] INFO  Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin - (?)  Registering Quartz Job Initialization Plug-in.@@@
+#@@@2022-08-16 16:09:55,221 [1] INFO  Quartz.Simpl.RAMJobStore - (?)  RAMJobStore initialized.@@@
+#@@@2022-08-16 16:09:55,225 [1] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+@@@
+#@@@2022-08-16 16:09:55,225 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler 'ServerScheduler' initialized@@@
+#@@@2022-08-16 16:09:55,226 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler version: 3.4.0.0@@@
+#@@@2022-08-16 16:09:55,254 [1] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (?)  Parsing XML file: E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz_jobs.xml with systemId: ~/quartz_jobs.xml@@@
+#@@@2022-08-16 16:09:55,423 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding 3 jobs, 3 triggers.@@@
+#@@@2022-08-16 16:09:55,428 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup.ItemJob@@@
+#@@@2022-08-16 16:09:55,434 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup2.ItemJob2@@@
+#@@@2022-08-16 16:09:55,435 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup3.ItemJob3@@@
+#@@@2022-08-16 16:09:55,466 [5] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler ServerScheduler_$_NON_CLUSTERED started.@@@
+#@@@2022-08-16 16:09:55,468 [5] INFO  System.Object - (32)  SyncEmployService Start Succsee@@@
+#@@@2022-08-16 16:17:28,394 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz.NET properties loaded from configuration file 'E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz.config'@@@
+#@@@2022-08-16 16:17:28,482 [1] WARN  Quartz.Simpl.TaskSchedulingThreadPool - (?)  Thread priority is no longer supported for thread pool, ignoring@@@
+#@@@2022-08-16 16:17:28,495 [1] WARN  Quartz.Impl.StdSchedulerFactory - (0)  RemotingSchedulerExporter configuration was ignored as Remoting is not supported@@@
+#@@@2022-08-16 16:17:28,506 [1] INFO  Quartz.Core.SchedulerSignalerImpl - (0)  Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl@@@
+#@@@2022-08-16 16:17:28,506 [1] INFO  Quartz.Core.QuartzScheduler - (?)  Quartz Scheduler created@@@
+#@@@2022-08-16 16:17:28,513 [1] INFO  Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin - (?)  Registering Quartz Job Initialization Plug-in.@@@
+#@@@2022-08-16 16:17:28,516 [1] INFO  Quartz.Simpl.RAMJobStore - (?)  RAMJobStore initialized.@@@
+#@@@2022-08-16 16:17:28,520 [1] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+@@@
+#@@@2022-08-16 16:17:28,520 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler 'ServerScheduler' initialized@@@
+#@@@2022-08-16 16:17:28,521 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler version: 3.4.0.0@@@
+#@@@2022-08-16 16:17:28,544 [1] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (?)  Parsing XML file: E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz_jobs.xml with systemId: ~/quartz_jobs.xml@@@
+#@@@2022-08-16 16:17:28,721 [8] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding 3 jobs, 3 triggers.@@@
+#@@@2022-08-16 16:17:28,724 [8] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup.ItemJob@@@
+#@@@2022-08-16 16:17:28,729 [8] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup2.ItemJob2@@@
+#@@@2022-08-16 16:17:28,729 [8] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup3.ItemJob3@@@
+#@@@2022-08-16 16:17:28,770 [8] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler ServerScheduler_$_NON_CLUSTERED started.@@@
+#@@@2022-08-16 16:17:28,774 [8] INFO  System.Object - (32)  SyncEmployService Start Succsee@@@
+#@@@2022-08-16 16:55:29,891 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz.NET properties loaded from configuration file 'E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz.config'@@@
+#@@@2022-08-16 16:55:30,071 [1] WARN  Quartz.Simpl.TaskSchedulingThreadPool - (?)  Thread priority is no longer supported for thread pool, ignoring@@@
+#@@@2022-08-16 16:55:30,089 [1] WARN  Quartz.Impl.StdSchedulerFactory - (0)  RemotingSchedulerExporter configuration was ignored as Remoting is not supported@@@
+#@@@2022-08-16 16:55:30,112 [1] INFO  Quartz.Core.SchedulerSignalerImpl - (0)  Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl@@@
+#@@@2022-08-16 16:55:30,112 [1] INFO  Quartz.Core.QuartzScheduler - (?)  Quartz Scheduler created@@@
+#@@@2022-08-16 16:55:30,116 [1] INFO  Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin - (?)  Registering Quartz Job Initialization Plug-in.@@@
+#@@@2022-08-16 16:55:30,128 [1] INFO  Quartz.Simpl.RAMJobStore - (?)  RAMJobStore initialized.@@@
+#@@@2022-08-16 16:55:30,131 [1] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+@@@
+#@@@2022-08-16 16:55:30,132 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler 'ServerScheduler' initialized@@@
+#@@@2022-08-16 16:55:30,133 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler version: 3.4.0.0@@@
+#@@@2022-08-16 16:55:30,165 [1] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (?)  Parsing XML file: E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz_jobs.xml with systemId: ~/quartz_jobs.xml@@@
+#@@@2022-08-16 16:55:30,357 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding 3 jobs, 3 triggers.@@@
+#@@@2022-08-16 16:55:30,361 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup.ItemJob@@@
+#@@@2022-08-16 16:55:30,365 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup2.ItemJob2@@@
+#@@@2022-08-16 16:55:30,365 [5] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup3.ItemJob3@@@
+#@@@2022-08-16 16:55:30,389 [5] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler ServerScheduler_$_NON_CLUSTERED started.@@@
+#@@@2022-08-16 16:55:30,391 [5] INFO  System.Object - (32)  SyncEmployService Start Succsee@@@
+#@@@2022-08-16 16:56:21,771 [25] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@
+#@@@2022-08-16 16:57:02,308 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz.NET properties loaded from configuration file 'E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz.config'@@@
+#@@@2022-08-16 16:57:02,386 [1] WARN  Quartz.Simpl.TaskSchedulingThreadPool - (?)  Thread priority is no longer supported for thread pool, ignoring@@@
+#@@@2022-08-16 16:57:02,399 [1] WARN  Quartz.Impl.StdSchedulerFactory - (0)  RemotingSchedulerExporter configuration was ignored as Remoting is not supported@@@
+#@@@2022-08-16 16:57:02,410 [1] INFO  Quartz.Core.SchedulerSignalerImpl - (0)  Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl@@@
+#@@@2022-08-16 16:57:02,410 [1] INFO  Quartz.Core.QuartzScheduler - (?)  Quartz Scheduler created@@@
+#@@@2022-08-16 16:57:02,418 [1] INFO  Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin - (?)  Registering Quartz Job Initialization Plug-in.@@@
+#@@@2022-08-16 16:57:02,421 [1] INFO  Quartz.Simpl.RAMJobStore - (?)  RAMJobStore initialized.@@@
+#@@@2022-08-16 16:57:02,424 [1] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+@@@
+#@@@2022-08-16 16:57:02,425 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler 'ServerScheduler' initialized@@@
+#@@@2022-08-16 16:57:02,425 [1] INFO  Quartz.Impl.StdSchedulerFactory - (0)  Quartz scheduler version: 3.4.0.0@@@
+#@@@2022-08-16 16:57:02,455 [1] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (?)  Parsing XML file: E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\quartz_jobs.xml with systemId: ~/quartz_jobs.xml@@@
+#@@@2022-08-16 16:57:02,634 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding 3 jobs, 3 triggers.@@@
+#@@@2022-08-16 16:57:02,641 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup.ItemJob@@@
+#@@@2022-08-16 16:57:02,649 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup2.ItemJob2@@@
+#@@@2022-08-16 16:57:02,651 [9] INFO  Quartz.Xml.XMLSchedulingDataProcessor - (0)  Adding job: ItemJobGroup3.ItemJob3@@@
+#@@@2022-08-16 16:57:02,697 [9] INFO  Quartz.Core.QuartzScheduler - (0)  Scheduler ServerScheduler_$_NON_CLUSTERED started.@@@
+#@@@2022-08-16 16:57:02,699 [9] INFO  System.Object - (32)  SyncEmployService Start Succsee@@@
+#@@@2022-08-16 16:57:08,994 [8] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@
+#@@@2022-08-16 16:57:11,788 [8] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@
+#@@@2022-08-16 16:57:17,214 [5] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@
+#@@@2022-08-16 16:57:21,773 [9] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@
+#@@@2022-08-16 16:57:26,920 [9] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@
+#@@@2022-08-16 16:57:31,696 [9] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@
+#@@@2022-08-16 16:57:38,144 [9] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@
+#@@@2022-08-16 16:57:41,751 [5] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@
+#@@@2022-08-16 16:57:46,649 [18] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@
+#@@@2022-08-16 16:57:51,682 [5] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@
+#@@@2022-08-16 16:57:56,994 [20] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@
+#@@@2022-08-16 16:58:02,388 [8] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@
+#@@@2022-08-16 16:58:07,083 [5] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@
+#@@@2022-08-16 16:58:11,851 [8] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@
+#@@@2022-08-16 16:58:16,901 [8] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@
+#@@@2022-08-16 16:58:21,910 [5] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@
+#@@@2022-08-16 16:58:27,272 [5] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@
+#@@@2022-08-16 16:58:31,736 [8] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@
+#@@@2022-08-16 16:58:36,785 [8] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@
+#@@@2022-08-16 16:58:42,081 [5] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@
+#@@@2022-08-16 16:58:46,674 [8] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@
+#@@@2022-08-16 16:58:51,732 [8] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@
+#@@@2022-08-16 16:58:57,097 [8] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@
+#@@@2022-08-16 16:59:15,599 [8] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@
+#@@@2022-08-16 16:59:17,880 [28] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@
+#@@@2022-08-16 16:59:21,753 [5] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@
+#@@@2022-08-16 16:59:26,792 [5] INFO  System.Object - (220)  SyncEmployAsync Succsee@@@

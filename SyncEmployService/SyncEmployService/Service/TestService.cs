@@ -11,10 +11,15 @@ namespace SyncEmployService.Service
 {
     public class TestService : ITestService
     {
-        ITestRepository test = new TestRepository();
-        public int Sum(int i, int j)
+        readonly ITestRepository _testRepository;
+        public TestService(ITestRepository testRepository)
         {
-            return test.Sum(i, j);
+            _testRepository = testRepository;
+        }
+
+        public async Task<int> Sum(int i, int j)
+        {
+            return _testRepository.Sum(i, j);
         }
     }
 }

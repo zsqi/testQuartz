@@ -8,9 +8,7 @@ using Topshelf;
 
 Console.WriteLine("Hello, World!");
 
-ContainerBuilder builder=new ContainerBuilder();
-builder.RegisterModule(new AutofacModuleRegister());
-builder.Build();
+var container = DependencyConfig.GetContainer();
 
 HostFactory.Run(x =>
 {
@@ -20,7 +18,8 @@ HostFactory.Run(x =>
 
     x.Service<ScheduleService>(setting =>
     {
-        setting.ConstructUsing(name => new ScheduleService());
+        //setting.ConstructUsing(name => new ScheduleService());
+        setting.ConstructUsing(name => container.Resolve<ScheduleService>());
         setting.WhenStarted(async tc => await tc.Start());
         //setting.WhenStarted(tc => tc.Start());
         setting.WhenStopped(async tc => await tc.Stop());
