@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PxdnpHPZ4VifJabiQfdFORUcdLrr1T+SQ/L6kyvNXixGW5Y1T1fhm6sB8TV/JPiB1cLFl63RvBrZQVuaorjAKA==",
+  "dgSpecHash": "+2ywERmIvI00mvLrwlQThnxvUqGUz7MQHHjFo0z/4hzGyiOoM8uAL7fJBirjhk586ho4wFiHZFMgwFAW7ZLWAw==",
   "success": true,
-  "projectFilePath": "E:\\test\\testQuartz\\SyncEmployService\\SyncEmployService\\SyncEmployService.csproj",
+  "projectFilePath": "E:\\test\\testQuartzGit\\testQuartz\\SyncEmployService\\SyncEmployService\\SyncEmployService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\15622\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
     "C:\\Users\\15622\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",

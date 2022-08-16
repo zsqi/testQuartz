@@ -7,4 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SyncEmployService
-build_property.ProjectDir = E:\test\testQuartz\SyncEmployService\SyncEmployService\
+build_property.ProjectDir = E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\
