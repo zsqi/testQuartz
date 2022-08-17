@@ -109,3 +109,5 @@ E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\n
 E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
 E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
 E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\install.bat
+E:\test\testQuartzGit\testQuartz\SyncEmployService\SyncEmployService\bin\Debug\net6.0\uninstall.bat

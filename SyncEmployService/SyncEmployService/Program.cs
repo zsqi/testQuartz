@@ -6,29 +6,21 @@ using SyncEmployService;
 using SyncEmployService.Job;
 using Topshelf;
 
-Console.WriteLine("Hello, World!");
-
 var container = DependencyConfig.GetContainer();
 
 HostFactory.Run(x =>
 {
-    x.SetDisplayName("SyncEmployService");
+    x.SetDisplayName("恒久-喔趣数据获取服务");
     x.SetServiceName("SyncEmployService");
-    x.SetDescription("SyncEmployService");
+    x.SetDescription("用于获取喔趣的员工信息并写入恒久系统");
 
     x.Service<ScheduleService>(setting =>
     {
-        //setting.ConstructUsing(name => new ScheduleService());
         setting.ConstructUsing(name => container.Resolve<ScheduleService>());
         setting.WhenStarted(async tc => await tc.Start());
-        //setting.WhenStarted(tc => tc.Start());
         setting.WhenStopped(async tc => await tc.Stop());
     });
     x.RunAsLocalSystem();
 });
-
-//ScheduleService scheduleService = new ScheduleService();
-//await scheduleService.Start();
-Console.ReadKey();
 
 

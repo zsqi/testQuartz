@@ -15,7 +15,7 @@ namespace SyncEmployService
             if (Container == null)
             {
                 ContainerBuilder builder = new ContainerBuilder();
-                builder.RegisterModule(new AutofacModuleRegister());                
+                builder.RegisterModule(new AutofacModuleRegister());
                 Container = builder.Build();
             }
             return Container;

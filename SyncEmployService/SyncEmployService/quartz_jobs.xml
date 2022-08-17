@@ -4,69 +4,25 @@
   <processing-directives>
     <overwrite-existing-data>true</overwrite-existing-data>
   </processing-directives>
-  <schedule>
-    <!--定义示例任务1 Job-->
+  <schedule>	
+	 <!--定义示例任务 Job-->
     <job>
       <name>ItemJob</name>
       <group>ItemJobGroup</group>
       <description>任务</description>
       <!--job-type,完整类名，命名空间，用逗号隔开-->
-      <job-type>SyncEmployService.Job.HelloQuartzJob,SyncEmployService</job-type>
-      <durable>true</durable>
-      <recover>false</recover>
-    </job>
-    <!--定义示例任务1 触发器 每3秒执行一次 ItemJob 任务-->
-    <trigger>
-      <cron>
-        <name>ItemJobTrigger</name>
-        <group>DItemJobTriggerGroup</group>
-        <!--指定JOB名-->
-        <job-name>ItemJob</job-name>
-        <!--指定JOB组-->
-        <job-group>ItemJobGroup</job-group>
-        <cron-expression>0/3 * * * * ?</cron-expression>
-      </cron>
-    </trigger>
-    
-    <!--定义示例任务2 Job-->
-    <job>
-      <name>ItemJob2</name>
-      <group>ItemJobGroup2</group>
-      <description>任务2</description>
-      <!--job-type,完整类名，命名空间，用逗号隔开-->
-      <job-type>SyncEmployService.Job.HelloQuartzJob2,SyncEmployService</job-type>
-      <durable>true</durable>
-      <recover>false</recover>
-    </job>
-    <!--定义示例任务2 触发器 每4秒执行一次 ItemJob2 任务-->
-    <trigger>
-      <cron>
-        <name>ItemJobTrigger2</name>
-        <group>DItemJobTriggerGroup2</group>
-        <job-name>ItemJob2</job-name>
-        <job-group>ItemJobGroup2</job-group>
-        <cron-expression>0/4 * * * * ?</cron-expression>
-      </cron>
-    </trigger>
-	
-	 <!--定义示例任务3 Job-->
-    <job>
-      <name>ItemJob3</name>
-      <group>ItemJobGroup3</group>
-      <description>任务3</description>
-      <!--job-type,完整类名，命名空间，用逗号隔开-->
       <job-type>SyncEmployService.Job.SyncEmployJob,SyncEmployService</job-type>
       <durable>true</durable>
       <recover>false</recover>
     </job>
-    <!--定义示例任务3 触发器 每5秒执行一次 ItemJob2 任务-->
+    <!--定义示例任务 触发器 每天6时 18时执行一次 ItemJob任务-->
     <trigger>
       <cron>
-        <name>ItemJobTrigger3</name>
-        <group>DItemJobTriggerGroup3</group>
-        <job-name>ItemJob3</job-name>
-        <job-group>ItemJobGroup3</job-group>
-        <cron-expression>0/5 * * * * ?</cron-expression>
+        <name>ItemJobTrigger</name>
+        <group>DItemJobTriggerGroup</group>
+        <job-name>ItemJob</job-name>
+        <job-group>ItemJobGroup</job-group>
+        <cron-expression>0 0 6,18 * * ?</cron-expression>
       </cron>
     </trigger>
     

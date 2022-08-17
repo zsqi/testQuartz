@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace SyncEmployService.Job
 {
-    public class SyncEmployJob:IJob
+    public class SyncEmployJob : IJob
     {
         public Task Execute(IJobExecutionContext context)
         {

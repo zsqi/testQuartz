@@ -8,6 +8,10 @@ namespace SyncEmployService.IService
 {
     public interface IEmployService
     {
+        /// <summary>
+        /// 同步员工
+        /// </summary>
+        /// <returns></returns>
         Task SyncEmployAsync();
     }
 }

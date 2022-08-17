@@ -12,6 +12,10 @@ namespace SyncEmployService.Repository
 {
     public class NewDeptRepository: INewDeptRepository
     {
+        /// <summary>
+        /// 获取部门
+        /// </summary>
+        /// <returns></returns>
         public async Task<List<NewDept>> GetNewDeptsAsync()
         {
             string sql = $@"SELECT ID,
@@ -28,7 +32,11 @@ FROM dbo.NewDept WITH (NOLOCK)";
                 return data.ToList();
             }
         }
-
+        /// <summary>
+        /// 新增部门
+        /// </summary>
+        /// <param name="depts"></param>
+        /// <returns></returns>
         public async Task InsertNewDeptsAsync(List<NewDept> depts)
         {
             string sql = "";
@@ -41,13 +49,15 @@ FROM dbo.NewDept WITH (NOLOCK)";
     IsExist,
     IsSalesMan,
     Guid,
-    DeptCode
+    DeptCode,
+    PLID
 )
 VALUES
-(@DName{i}, {depts[i].IsExist}, {depts[i].IsSalesMan}, '{depts[i].Guid.ToString()}', @DeptCode{i});;
+(@DName{i}, {depts[i].IsExist}, {depts[i].IsSalesMan}, '{depts[i].Guid.ToString()}', @DeptCode{i},@PLID{i});;
 ";
                 Params.Add($"@DName{i}", depts[i].DName);
                 Params.Add($"@DeptCode{i}", depts[i].DeptCode);
+                Params.Add($"@PLID{i}", depts[i].PLID);
             }
             using (var conn = BaseRepository.ConnectionFactory())
             {

@@ -13,6 +13,10 @@ namespace SyncEmployService.Repository
 {
     public class EmployRepository: IEmployRepository
     {
+        /// <summary>
+        /// 获取员工
+        /// </summary>
+        /// <returns></returns>
         public async Task<List<Employ>> GetEmployeesAsync()
         {
             string sql = $@"SELECT id,
@@ -31,6 +35,11 @@ FROM dbo.Employ WITH (NOLOCK)";
                 return data.ToList();
             }
         }
+        /// <summary>
+        /// 新增员工
+        /// </summary>
+        /// <param name="employs"></param>
+        /// <returns></returns>
         public async Task InsertEmployeesAsync(List<Employ> employs)
         {
             string sql = " DECLARE @newid INT = 0; ";
@@ -72,6 +81,11 @@ VALUES
                 var data = await conn.ExecuteAsync(sql,Params);
             }
         }
+        /// <summary>
+        /// 修改员工
+        /// </summary>
+        /// <param name="employs"></param>
+        /// <returns></returns>
         public async Task UpdateEmployeesAsync(List<Employ> employs)
         {
             string sql = "";

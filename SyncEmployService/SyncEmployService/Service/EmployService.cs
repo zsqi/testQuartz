@@ -24,14 +24,19 @@ namespace SyncEmployService.Service
     {
         private readonly IEmployRepository _employRepository;
         private readonly INewDeptRepository _newDeptRepository;
+        private readonly IProductionLineRepository _productionLineRepository;
         private readonly ILog _log;
-        public EmployService(IEmployRepository employRepository,  INewDeptRepository newDeptRepository,ILog log)
+        public EmployService(IEmployRepository employRepository, INewDeptRepository newDeptRepository, IProductionLineRepository productionLineRepository, ILog log)
         {
-            _employRepository = employRepository;         
+            _employRepository = employRepository;
             _newDeptRepository = newDeptRepository;
+            _productionLineRepository = productionLineRepository;
             _log = log;
         }
-
+        /// <summary>
+        /// 同步员工
+        /// </summary>
+        /// <returns></returns>
         public async Task SyncEmployAsync()
         {
             try
@@ -41,7 +46,7 @@ namespace SyncEmployService.Service
                 int totalPage = 1;
                 int pageSize = 100;
                 var tokenResponse = await GetTokenAsync();
-                if (tokenResponse == null || tokenResponse.code != 0||tokenResponse.data==null)
+                if (tokenResponse == null || tokenResponse.code != 0 || tokenResponse.data == null)
                 {
                     return;
                 }
@@ -49,7 +54,7 @@ namespace SyncEmployService.Service
                 expiresIn = DateTime.Now.AddSeconds(tokenResponse.data.expiresIn).AddMinutes(-5);//提前五分钟过期重新获取token
                 ConcurrentBag<EmployView> employViews = new ConcurrentBag<EmployView>();
                 var firstEmployViews = await GetEmployViewsAsync(1, pageSize, token);
-                if (firstEmployViews == null || firstEmployViews.code != 0 || firstEmployViews.data == null|| firstEmployViews.data.list == null)
+                if (firstEmployViews == null || firstEmployViews.code != 0 || firstEmployViews.data == null || firstEmployViews.data.list == null)
                 {
                     return;
                 }
@@ -79,6 +84,12 @@ namespace SyncEmployService.Service
                 }
                 var oldEmploys = await _employRepository.GetEmployeesAsync();
                 List<NewDept> newDepts = await _newDeptRepository.GetNewDeptsAsync();
+                List<ProductionLine> productionLineList = await _productionLineRepository.GetProductionLinesAsync();
+                ProductionLine productionLine = productionLineList.Where(x => x.LineName == "默认生产线").FirstOrDefault();
+                if (productionLine == null)
+                {
+                    productionLine = productionLineList.FirstOrDefault();
+                }
                 List<EmployView> newEmployView = new List<EmployView>();
                 List<EmployView> existedEmployView = new List<EmployView>();
                 newEmployView = list.Where(x => oldEmploys.All(y => y.Name != x.employeeCode)).ToList();
@@ -97,7 +108,8 @@ namespace SyncEmployService.Service
                             IsSalesMan = 0,
                             DeptCode = newEmployView[i].unitCode,
                             DName = newEmployView[i].unitName,
-                            Guid = Guid.NewGuid()
+                            Guid = Guid.NewGuid(),
+                            PLID = productionLine == null ? null : productionLine.ID
                         });
                     }
                     DateTime? leaveTime = null;
@@ -133,7 +145,8 @@ namespace SyncEmployService.Service
                             IsSalesMan = 0,
                             DeptCode = existedEmployView[i].unitCode,
                             DName = existedEmployView[i].unitName,
-                            Guid = Guid.NewGuid()
+                            Guid = Guid.NewGuid(),
+                            PLID = productionLine == null ? null : productionLine.ID
                         });
                     }
                     var oldEmploy = oldEmploys.Where(x => x.Name == existedEmployView[i].employeeCode).FirstOrDefault();

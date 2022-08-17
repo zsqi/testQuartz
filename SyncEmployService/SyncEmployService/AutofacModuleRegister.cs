@@ -30,9 +30,6 @@ namespace SyncEmployService
             //程序集注入业务服务
             var IAppServices = Assembly.Load("SyncEmployService");
             var AppServices = Assembly.Load("SyncEmployService");
-            //builder.RegisterAssemblyTypes(IAppServices, AppServices)
-            //  .Where(t => t.Name.EndsWith("Job"))
-            //  .AsSelf();
             //根据名称约定（服务层的接口和实现均以Service结尾），实现服务接口和服务实现的依赖
             builder.RegisterAssemblyTypes(IAppServices, AppServices)
               .Where(t => t.Name.EndsWith("Service"))
@@ -40,9 +37,6 @@ namespace SyncEmployService
             builder.RegisterAssemblyTypes(IAppServices, AppServices)
              .Where(t => t.Name.EndsWith("Repository"))
              .AsImplementedInterfaces();
-            //配置quartz.net依赖注入
-            //builder.RegisterModule(new QuartzAutofacFactoryModule());
-            //builder.RegisterModule(new QuartzAutofacJobsModule(Assembly.GetExecutingAssembly()));
         }
     }
 }

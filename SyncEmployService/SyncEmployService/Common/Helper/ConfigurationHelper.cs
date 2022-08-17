@@ -42,7 +42,7 @@ namespace SyncEmployService.Common.Helper
                         if (_instance == null)
                         {
                             _instance = new ConfigurationHelper();
-                        }                        
+                        }
                     }
                 }
                 return _instance;
@@ -50,6 +50,11 @@ namespace SyncEmployService.Common.Helper
         }
 
         #endregion
+        /// <summary>
+        /// 获取节点配置
+        /// </summary>
+        /// <param name="sections"></param>
+        /// <returns></returns>
 
         public string GetConfiguration(params string[] sections)
         {

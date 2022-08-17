@@ -36,5 +36,9 @@ namespace SyncEmployService.Models.Entity
         /// 部门编码
         /// </summary>
         public string DeptCode { get; set; }
+        /// <summary>
+        /// 生产线id
+        /// </summary>
+        public int? PLID { get; set; }
     }
 }
