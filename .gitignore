@@ -2,9 +2,8 @@
 # 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
 ################################################################################
 
-/obj
-/.vs
-/.svn
-/bin
-/packages
+/SyncEmployService/SyncEmployService/obj
+/SyncEmployService/.vs
+/SyncEmployService/SyncEmployService/bin
+/SyncEmployService/SyncEmployService/Properties
 
