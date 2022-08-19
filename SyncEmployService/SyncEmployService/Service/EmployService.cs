@@ -102,7 +102,7 @@ namespace SyncEmployService.Service
                     var newDept = newDepts.Where(x => x.DeptCode == newEmployView[i].unitCode).FirstOrDefault();
                     if (newDept == null && !addNewDepts.Any(x => x.DeptCode == newEmployView[i].unitCode))
                     {
-                        addNewDepts.Add(new NewDept
+                        newDept = new NewDept
                         {
                             IsExist = 0,
                             IsSalesMan = 0,
@@ -110,7 +110,12 @@ namespace SyncEmployService.Service
                             DName = newEmployView[i].unitName,
                             Guid = Guid.NewGuid(),
                             PLID = productionLine == null ? null : productionLine.ID
-                        });
+                        };
+                        addNewDepts.Add(newDept);
+                    }
+                    if (newDept == null)
+                    {
+                        newDept = addNewDepts.FirstOrDefault(x => x.DeptCode == newEmployView[i].unitCode);
                     }
                     DateTime? leaveTime = null;
                     if (DateTime.TryParse(newEmployView[i].gmtLeave, out DateTime tempLeaveTime))
@@ -127,7 +132,7 @@ namespace SyncEmployService.Service
                         Name = newEmployView[i].employeeCode,
                         //Phone = newEmployView[i].phone,
                         Worked = newEmployView[i].hiringStatus == "Active" ? "在职" : "离职",
-                        Dept = newEmployView[i].unitName,
+                        Dept = newDept.DName,
                         OtherName = newEmployView[i].fullName,
                         LeaveTime = leaveTime,
                         CStartTime = cStartTime
@@ -139,7 +144,7 @@ namespace SyncEmployService.Service
                     var newDept = newDepts.Where(x => x.DeptCode == existedEmployView[i].unitCode).FirstOrDefault();
                     if (newDept == null && !addNewDepts.Any(x => x.DeptCode == existedEmployView[i].unitCode))
                     {
-                        addNewDepts.Add(new NewDept
+                        newDept = new NewDept
                         {
                             IsExist = 0,
                             IsSalesMan = 0,
@@ -147,7 +152,12 @@ namespace SyncEmployService.Service
                             DName = existedEmployView[i].unitName,
                             Guid = Guid.NewGuid(),
                             PLID = productionLine == null ? null : productionLine.ID
-                        });
+                        };
+                        addNewDepts.Add(newDept);
+                    }
+                    if (newDept == null)
+                    {
+                        newDept = addNewDepts.FirstOrDefault(x => x.DeptCode == existedEmployView[i].unitCode);
                     }
                     var oldEmploy = oldEmploys.Where(x => x.Name == existedEmployView[i].employeeCode).FirstOrDefault();
                     bool flag = false;
@@ -156,10 +166,10 @@ namespace SyncEmployService.Service
                         flag = true;
                         oldEmploy.OtherName = existedEmployView[i].fullName;
                     }
-                    if (oldEmploy.Dept != existedEmployView[i].unitName)
+                    if (oldEmploy.Dept != newDept.DName)
                     {
                         flag = true;
-                        oldEmploy.Dept = existedEmployView[i].unitName;
+                        oldEmploy.Dept = newDept.DName;
                     }
                     DateTime? leaveTime = null;
                     if (DateTime.TryParse(existedEmployView[i].gmtLeave, out DateTime tempLeaveTime))
